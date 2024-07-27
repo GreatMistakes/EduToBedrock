@@ -1,0 +1,23 @@
+{
+   "content" : [
+      {
+         "path" : "contents.json"
+      },
+      {
+         "path" : ".DS_Store"
+      },
+      {
+         "path" : "pack_icon.png"
+      },
+      {
+         "path" : "items/camera.json"
+      },
+      {
+         "path" : "items/portfolio.json"
+      },
+      {
+         "path" : "manifest.json"
+      }
+   ],
+   "version" : 1
+}

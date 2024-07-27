@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:board"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ooo",
+      "o.o",
+      "ooo"
+    ],
+    "key": {
+      ".": {
+        "item": "minecraft:green_terracotta"
+      },
+      "o": {
+        "item": "minecraft:stick"
+      }
+    },
+	"unlock": [
+      {
+        "item": "minecraft:iron_block"
+      }
+    ],
+    "result": {
+      "item": "minecraft:chalkboard",
+      "data": 1
+    }
+  }
+}

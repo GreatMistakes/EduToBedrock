@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "edu:camera"
+    },
+
+    "components": {
+      "minecraft:icon": "camera",
+      "minecraft:use_animation": "camera"
+    }
+  }
+}

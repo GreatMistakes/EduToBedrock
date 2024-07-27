@@ -1,0 +1,481 @@
+﻿authentication.popup.setup.title=Penyiapan Akun	#
+authentication.popup.setup.firstPage.body=Selamat datang di Minecraft Education!%1%1Sebelum memulai, kami harus memverifikasi usiamu. Untuk melakukannya, kami akan membuka browser web dan memintamu masuk dengan Akun Microsoft pribadimu.%1%1Jika belum punya Akun Microsoft pribadi, jangan khawatir... kamu bisa membuatnya di halaman masuk.		### %1 will be replaced with a new line so two will result in an empty line seperating the two pieces of text
+authentication.popup.setup.firstPage.learnMore=Mengapa saya perlu memverifikasi usia saya?	#
+authentication.popup.setup.firstPage.button=Verifikasi Sekarang	#
+authentication.popup.setup.secondPage.body=Kami membuka halaman Penyiapan Akun di browser web kamu. Gunakan halaman itu untuk masuk dengan Akun Microsoft pribadi dan verifikasi usiamu.%1%1Beri tahu kami saat kamu selesai.		### %1 will be replaced with a new line so two will result in an empty line seperating the two pieces of text
+authentication.popup.setup.secondPage.openAgain=Buka kembali halaman "Penyiapan Akun".	#
+authentication.popup.setup.secondPage.button=Saya Selesai	#
+authentication.popup.demoLink=Coba pelajaran demo.	#
+
+classroomSettings.uriResource.header.title=Tautan Sumber Daya	#
+classroomSettings.uriResource.header.description=Buat tombol baru pada menu Jeda yang ditautkan ke alat penilaian, situs web, atau sumber daya lain untuk duniamu.	#
+classroomSettings.uriResource.name.placeHolder=BUKA TAUTAN (Default)		### Text before (Default) should match pause.externalLink
+classroomSettings.uriResource.name.title=Nama Tombol Sumber Daya	#
+classroomSettings.uriResource.uri.placeHolder=Diperlukan untuk mengaktifkan tombol	#
+classroomSettings.uriResource.uri.title=URL Tombol Sumber Daya	#
+classroomSettings.uriResource.uri.warning.invalidUri=Hanya URL yang berawalan "http" atau "https" yang didukung.	#
+classroomSettings.uriResource.uri.warning.emptyUri=Jangan lupa tambahkan URL untuk mengaktifkan tombolmu.	#
+
+commands.codebuilder.description=Menetapkan status Pembuat Kode untuk pemain.	#
+commands.codebuilder.invalidRuntimeAction=Ini bukan tindakan runtime yang valid.	#
+commands.resourceuri.description=Mengatur URI sumber daya di menu jeda	#
+commands.resourceuri.named=URI sumber daya diatur ke "%s" dengan nama tombol "%s"	#
+commands.resourceuri.default=URI sumber daya diatur ke "%s"	#
+commands.resourceuri.clear=URI sumber daya telah dihapus	#
+commands.summon.failed.npc.edu=Kamu memerlukan izin worldbuilder untuk memanggil NPC		###
+commands.takepicture.description=Memotret pemain atau dari sudut pandang pemain.	#
+commands.takepicture.cameranotfound=Gagal menemukan kamera.	#
+commands.takepicture.cameranotspawned=Gagal memunculkan kamera.	#
+
+createWorldScreen.allowdestructiveitems=Izinkan Item Perusak	#
+createWorldScreen.allowmobs=Izinkan Mob	#
+createWorldScreen.classroomsettings.toggle=Tampilkan Pengaturan Kelas	#
+createWorldScreen.classroom.settings=Pengaturan Kelas	#
+createWorldScreen.commands=Izinkan Perintah	#
+createWorldScreen.help=Dapatkan bantuan terkait Pengaturan Kelas	#
+createWorldScreen.immutableworld=Dunia yang Tidak Dapat Diubah	#
+createWorldScreen.perfectweather=Cuaca Sempurna	#
+createWorldScreen.playerdamage=Kerusakan Pemain	#
+createWorldScreen.pvpdamage=Pemain VS Kerusakan Pemain	#
+
+item.spawn_egg.entity.npc.failed.edu=Kamu memerlukan izin worldbuilder untuk memunculkan NPC	#
+
+library.connection.failed.body=Kami tidak bisa tersambung ke Perpustakaan. Masalah ini bisa terjadi jika komputermu offline atau akses ke katalog Perpustakaan diblokir.	#
+library.connection.failed.help=Dapatkan Bantuan	#
+library.connection.noWorldFound.title=Dunia Tidak Ditemukan	#
+library.connection.noWorldFound.body=Sepertinya tidak ada dunia dalam kategori ini.	#
+library.noLessonsFound.title=Tidak Ada Pelajaran	#
+library.noLessonsFound.body=Kategori saat ini kosong. Kami menambahkan pelajaran baru setiap saat, jadi silakan periksa kembali nanti!	#
+library.tip.noAzureNotebook=Pelajaran Python tersedia untuk Windows dan MacOS.	#
+library.findMoreWorlds=Temukan Dunia Lainnya	#
+library.leaveFeedback=Beri Umpan Balik	#
+library.title=Perpustakaan	#
+library.searchResults=Hasil untuk: "%1"	#
+library.item.createdBy=Oleh %s	#
+library.item.age=Usia: %1	#
+
+## Example for how the duration section will be used:
+## Duration: 10 Minutes (this is a combination of library.item.duration, library.item.duration.multipleMinutes, and the number 10)
+## Duration: 1 Hour (this is a combination of library.item.duration, library.item.duration.hour, and the number 1)
+library.item.duration=Durasi: %1	#
+library.item.duration.minute=%1 Menit	#
+library.item.duration.multipleMinutes=%1 Menit	#
+library.item.duration.hour=%1 Jam	#
+library.item.duration.multipleHours=%1 Jam	#
+
+library.item.difficulty=Tingkat Kesulitan: %1	#
+library.item.difficulty.beginner=Pemula	#
+library.item.difficulty.intermediate=Menengah	#
+library.item.difficulty.advanced=Tingkat Lanjut	#
+
+library.item.tags=Tag:	#
+library.item.tagsAll=SEMUA TAG:	#
+library.item.tagsAll.tts=Tampilkan tag lainnya	#
+library.item.button.signin=MASUK UNTUK MEMBUKA KUNCI	#
+library.item.button.create=BUAT DUNIA	#
+library.item.button.share=Bagikan Tautan	#
+library.item.button.shareEducator=TETAPKAN ATAU BAGIKAN	#
+library.item.button.plan=RENCANA PELAJARAN	#
+library.item.button.resources=SUMBER DAYA	#
+library.item.progress.body=Bersiap mengimpor dunia baru. Proses ini mungkin perlu waktu beberapa menit.	#
+library.item.description=DESKRIPSI	#
+library.item.overview=IKHTISAR	#
+library.item.expandable.readLess=Baca Lebih Sedikit	#
+library.item.expandable.readMore=Baca Lebih Lanjut	#
+
+library.item.section.languages=BAHASA YANG DIDUKUNG	#
+library.item.section.languages.tip=Jika pelajaran ini tidak tersedia di bahasa yang kamu inginkan, Pembaca Imersif bisa digunakan untuk menerjemahkan teks dalam permainan, termasuk buku, tanda, papan, dan dialog NPC.	#
+library.item.section.questions=PERTANYAAN PENTING	#
+library.item.section.generic_objectives=TUJUAN	#
+library.item.section.objectives=TUJUAN PEMBELAJARAN	#
+library.item.section.prep=PERSIAPAN & CATATAN PENGAJAR	#
+library.item.section.activities=AKTIVITAS SISWA	#
+library.item.section.assessment=PENILAIAN	#
+library.item.section.extensions=EKSTENSI	#
+
+library.prompt.inGameLink=Tindakan ini akan menyimpan dan menutup permainan yang aktif dan semua sambungan multipemain. Yakin mau keluar?	#
+library.fetchingItem=Menyambungkan ke perpustakaan...	#
+library.fetchingItem.failed=Maaf, kami tidak bisa menemukan item itu di Perpustakaan.	#
+library.welcome.1=Selamat Datang di Pustaka Minecraft Education!	#
+library.welcome.2=Perpustakaan adalah fitur baru yang kami buat untuk memudahkan pengajar dan siswa menemukan dan mengimpor konten pendidikan secara langsung di dalam permainan. Dalam rilis ini, kamu akan menemukan daftar dunia kami yang terpopuler untuk diimpor dan digunakan, beserta tautan ke perpustakaan dunia selengkapnya di situs web kami.	#
+library.welcome.3=Kami berusaha menambahkan dukungan untuk lebih banyak jenis konten dan fungsionalitas dalam beberapa bulan mendatang. Beri tahu kami pendapatmu dengan mengeklik tombol umpan balik.	#
+
+library.item.sharepopup.title.simple=Bagikan Tautan	#
+library.item.sharepopup.title.educator=Tetapkan atau Bagikan	#
+library.item.sharepopup.title.addResource=Tambah Sumber Daya	#
+library.item.sharepopup.shareText.noResource.educator=Tetapkan dunia ini atau bagikan tautan.	#
+library.item.sharepopup.shareText.noResource.simple=Bagikan tautan ke dunia ini.	#
+library.item.sharepopup.shareText.resource.educator=Duniamu siap untuk ditetapkan atau dibagikan!	#
+library.item.sharepopup.shareText.resource.simple=Duniamu siap untuk dibagikan!	#
+library.item.sharepopup.shareLink=Bagikan Tautan	#
+library.item.sharepopup.body=Bagikan tautan ke dunia ini.	#
+library.item.sharepopup.copy=SALIN	#
+library.item.sharepopup.copyButton=Salin Tautan	#
+library.item.sharepopup.addResourceButton=Tambah Sumber Daya	#
+library.item.sharepopup.secondaryText=Apakah kamu ingin menambahkan alat penilaian, Topik Flipgrid, atau situs web ke dunia sebelum membagikannya?	#
+library.item.sharepopup.addResource.labelOne=Salin URL kuis, Topik Flipgrid, atau situs web kamu dan tempelkan di bawah ini.	#
+library.item.sharepopup.addResource.labelTwo=Tindakan ini akan membuat tombol baru pada menu Jeda sehingga pemain dapat mengakses sumber daya kapan saja dari dalam dunia.	#
+library.item.sharepopup.addResource.learnMoreLinkText=Selengkapnya	#
+library.item.sharepopup.addResource.urlLabel=URL Tombol Sumber Daya:	#
+library.item.sharepopup.addResource.urlHintText=Diperlukan untuk mengaktifkan tombol	#
+library.item.sharepopup.addResource.buttonNameLabel=Nama Tombol Sumber Daya:	#
+library.item.sharepopup.addResource.buttonNameHintText=BUKA TAUTAN (Default)		### Text before (Default) should match pause.externalLink
+library.item.sharepopup.addResource.doneButton=Selesai	#
+library.item.sharepopup.addResource.cancelButton=Batal	#
+library.item.sharepopup.addResource.deleteButton=Hapus	#
+library.item.sharepopup.addResource.invalidSchema=Masukkan URL yang berawalan "http" atau "https" untuk melanjutkan.	#
+library.item.sharepopup.editResourceLabel=Berikut adalah pratinjau tombol yang akan kami tambahkan ke menu Jeda untuk siapa saja yang membuka dunia tersebut.	#
+library.item.sharepopup.editResource.button.accessibility=Edit URL Sumber Daya	#
+library.item.share.toast.title=Tautan disalin ke clipboard.	#
+
+library.item.share.toast.teams=Membuka Microsoft Teams di browser web.	#
+library.item.share.toast.email=Membuka email.	#
+library.item.share.toast.classrooms=Membuka Google Classroom di browser web.	#
+library.item.teams.msgTxt=Lihat dunia ini, %1, di Minecraft Education.	#
+library.item.sharepopup.shareButton=Bagikan ke Teams 	#
+
+library.category.title.demo=Pelajaran Demo Minecraft Education	#
+library.category.description.demo=Selamat datang di Pelajaran Demo Minecraft Education! Kami mengundang kamu untuk menjelajahi pelajaran ini dan mempelajari bagaimana Minecraft membangun keterampilan STEM, membebaskan kreativitas, dan melibatkan murid dalam kolaborasi dan pemecahan masalah.	#
+
+library.category.label.biomes=BIOMA & DUNIA	#
+library.category.title.biomes=Bioma & Dunia	#
+library.category.description.biomes=Gunakan koleksi dunia dan bioma ini untuk membantu memulai pembuatan pelajaran di Minecraft Education.	#
+
+library.category.label.biomes.biome=BIOMA	#
+library.category.title.biomes.biome=Bioma	#
+library.category.description.biomes.biome=Di Minecraft, bioma adalah wilayah yang dibedakan menurut fitur, tanaman, dan hewan geografis yang unik.	#
+
+library.category.label.biomes.featured=DUNIA UNGGULAN	#
+library.category.title.biomes.featured=Dunia Unggulan	#
+
+library.category.label.buildChallenges=TANTANGAN PEMBANGUNAN BULANAN	#
+library.category.title.buildChallenges=Tantangan Pembangunan Bulanan	#
+library.category.description.buildChallenges=Dorong kreativitas siswa dan perkuat Keahlian Abad Ke-21 dengan ragam aktivitas yang mudah diterapkan untuk kelas, kamp, atau klub.	#
+
+library.category.label.howToPlay=CARA MAIN	#
+library.category.description.howToPlay=Dunia dan aktivitas ini dirancang sebagai pengalaman pendahuluan untuk mempelajari cara menggunakan Minecraft Education di kelas, kamp, atau klub.	#
+
+library.category.label.howToPlay.startHere=MULAI DI SINI	#
+library.category.title.howToPlay.startHere=Mulai di Sini	#
+library.category.description.howToPlay.startHere=Setiap dunia tutorial ini dirancang untuk membantumu mempelajari berbagai macam keahlian yang mendukung penggunaan Minecraft Education di kelas, kamp, atau klub.	#
+
+library.category.label.howToPlay.additional=TUTORIAL TAMBAHAN	#
+library.category.title.howToPlay.additional=Tutorial Tambahan	#
+
+library.category.label.SEL=SOSIAL EMOSIONAL	#
+library.category.title.SEL=Sosial Emosional	#
+library.category.description.SEL=Dunia dan aktivitas ini mendukung Pembelajaran Sosial dan Emosional. Konsepnya mencakup kesejahteraan emosional, empati, dan pengambilan keputusan yang bertanggung jawab.	#
+
+library.category.label.digitalCitizen=KEWARGANEGARAAN DIGITAL	#
+library.category.title.digitalCitizen=Kewarganegaraan Digital	#
+library.category.description.digitalCitizen=Dunia dan aktivitas ini berfokus pada Kewarganegaraan Digital, dengan mendukung siswa saat mereka mempelajari literasi media, privasi, dan partisipasi dalam komunitas online.	#
+
+library.category.label.equity_and_inclusion=KEADILAN DAN INKLUSI	#this has already been localized	#
+library.category.title.equity_and_inclusion=Keadilan dan Inklusi	#this has already been localized	#
+library.category.description.equity_and_inclusion=Dunia dan aktivitas ini berfokus pada keadilan dan inklusi. Konsepnya meliputi keadilan sosial, identitas, dan toleransi.	#change in capitalization only, has otherwise been localized	#
+
+library.category.label.lessons=PELAJARAN	#
+library.category.title.lessons=Pelajaran	#
+
+library.category.label.lessons.genericAdditional=PELAJARAN TAMBAHAN	#
+library.category.title.lessons.genericAdditional=Pelajaran Tambahan	#
+
+library.category.label.languageArts=SENI BAHASA	#
+library.category.title.languageArts=Seni Bahasa	#
+
+library.category.label.languageArts.litStudies=STUDI LITERATUR	#
+library.category.title.languageArts.litStudies=Studi Literatur	#
+
+library.category.label.languageArts.litStudies.treasureIsland=PULAU HARTA KARUN	#
+library.category.title.languageArts.litStudies.treasureIsland=Pulau Harta Karun	#
+library.category.description.languageArts.litStudies.treasureIsland=Rangkaian pelajaran ini dirancang untuk membantu pengajaran konsep Seni Bahasa Inggris melalui studi "Pulau Harta Karun" karya Robert Louis Stevenson.	#
+
+library.category.label.languageArts.litStudies.kensukesKingdom=KERAJAAN KENSUKE	#
+library.category.title.languageArts.litStudies.kensukesKingdom=Kerajaan Kensuke	#
+library.category.description.languageArts.litStudies.kensukesKingdom=Rangkaian pelajaran ini dirancang untuk membantu pengajaran konsep Seni Bahasa Inggris melalui studi "Kerajaan Kensuke" karya Michael Morpurgo.	#
+
+library.category.label.languageArts.litStudies.swissFamily=KELUARGA SWISS ROBINSON	#
+library.category.title.languageArts.litStudies.swissFamily=Keluarga Swiss Robinson	#
+library.category.description.languageArts.litStudies.swissFamily=Rangkaian pelajaran ini dirancang untuk membantu pengajaran konsep Seni Bahasa Inggris melalui studi "Robinson Crusoe" dan "Keluarga Swiss Robinson".	#
+
+library.category.label.science=SAINS	#
+library.category.title.science=Sains	#
+
+library.category.label.science.chemistry=KIMIA	#
+library.category.title.science.chemistry=Kimia	#
+
+library.category.label.science.biology=BIOLOGI	#
+library.category.title.science.biology=Biologi	#
+
+library.category.label.science.rangers=WE ARE THE RANGERS	#
+library.category.title.science.rangers=We are the Rangers	#
+library.category.description.science.rangers=Kelima pelajaran dan dunia Minecraft yang unik mencakup beragam mata pelajaran dan kelompok usia. Melalui kurikulum yang disediakan, siswa dapat bertualang di dataran Afrika, menyelidiki pelabuhan aktif, tempat pengasuhan badak dan stasiun prajurit, menyelesaikan masalah, dan membangun keahlian di sepanjang prosesnya.	#
+
+library.category.label.science.extinction=KRISIS RAGAM HAYATI KEPUNAHAN	#
+library.category.title.science.extinction=Krisis Ragam Hayati Kepunahan	#
+library.category.description.science.extinction=Kami bermitra dengan Dana Dunia (WWF) untuk paket konten ini, yang mencakup dunia Minecraft yang imersif dan pelajaran berbasis standar. Jelajahi sumber daya berikut untuk pembelajaran langsung mengenai ekosistem, konservasi, dan keragaman hayati.	#
+
+library.category.label.history=SEJARAH & BUDAYA	#
+library.category.title.history=Sejarah & Budaya	#
+
+library.category.label.history.oregonTrail=JALUR OREGON	#
+library.category.title.history.oregonTrail=Jalur Oregon	#
+library.category.description.history.oregonTrail=Bermitra dengan Houghton Mifflin Harcourt, Minecraft Education menghadirkan Pengalaman Jalur Oregon. Terapkan aktivitas pembelajaran Jalur Oregon ini dalam kurikulum dan mulailah petualangan dahsyat menyusuri Jalur Oregon di Amerika Utara yang keras.	#
+
+library.category.label.computerScience=ILMU KOMPUTER	#
+library.category.title.computerScience=Ilmu Komputer	#
+
+library.category.label.computerScience.hourOfCode=JAM KODE	#
+library.category.title.computerScience.hourOfCode=Jam Kode	#
+library.category.description.computerScience.hourOfCode=Jam Kode dimulai pada tahun 2013 sebagai pengantar ilmu komputer yang berdurasi satu jam, dirancang untuk menunjukkan bahwa semua orang bisa mempelajari dasar-dasar pengkodean. Pelajaran ini menawarkan pengalaman pengantar yang menyenangkan untuk pengkodean di Minecraft dan cocok untuk pelajar berbagai usia.	#
+
+library.category.label.computerScience.computingWithMinecraft=KOMPUTASI DENGAN MINECRAFT	#
+library.category.title.computerScience.computingWithMinecraft=Komputasi dengan Minecraft	#
+library.category.description.computerScience.computingWithMinecraft=Bangun kotamu sendiri dengan pelajaran ilmu komputer berdasarkan standar CSTA ini. Pelajari konsep dasar ilmu komputer yang meliputi loop, algoritme, kondisional, debug, iterasi, dan lainnya.	#
+
+library.category.label.computerScience.codingWithMinecraft=MENULIS KODE DENGAN MINECRAFT	#
+library.category.title.computerScience.codingWithMinecraft=Menulis Kode dengan Minecraft	#
+library.category.description.computerScience.codingWithMinecraft=Pelajari kondisional, fungsi, koordinat, AI, dan lainnya dengan pelajaran ilmu komputer yang berdasarkan standar CSTA ini.	#
+
+library.category.label.computerScience.codingFun1=DASAR-DASAR PENULISAN KODE: 1	#
+library.category.title.computerScience.codingFun1=Dasar-Dasar Penulisan Kode: 1	#
+library.category.description.computerScience.codingFun1=Pelajari tentang berbagai hewan, tantangan yang dihadapi, dan cara untuk membantu mereka dengan kode! Gunakan algoritme, pengurutan, dan pengulangan untuk memecahkan teka-teki penulisan kode yang menyenangkan.	#
+
+library.category.label.computerScience.codingFun2=DASAR-DASAR PENULISAN KODE: 2	#
+library.category.title.computerScience.codingFun2=Dasar-Dasar Penulisan Kode: 2	#
+library.category.description.computerScience.codingFun2=Kunjungi Bulan, Merkurius, Venus, Mars, Jupiter, dan Neptunus! Pelajari cara debug kode dan menggunakan kondisional, operator, dan pengulangan sambil membantu Agent mengumpulkan material di berbagai penjuru sistem tata surya.	#
+
+library.category.label.computerScience.codingFun3=DASAR-DASAR PENULISAN KODE: 3	#
+library.category.title.computerScience.codingFun3=Dasar-Dasar Penulisan Kode: 3	#
+library.category.description.computerScience.codingFun3=Perjalanan melintasi waktu, dari era pra-sejarah sampai masa depan yang jauh! Lihat dinosaurus, saluran air Romawi, dan Barat Liar sambil belajar menggunakan variabel, kejadian, kondisional, dan fungsi.	#
+
+library.category.label.computerScience.ai=KECERDASAN BUATAN	#
+library.category.title.computerScience.ai=Kecerdasan Buatan	#
+library.category.description.computerScience.ai=Dibuat dalam kolaborasi dengan Microsoft AI for Earth, kursus ini akan memperkenalkan siswa pada kekuatan Kecerdasan buatan atau AI dalam berbagai skenario dunia nyata yang menarik. Siswa akan membantu orang-orang di daerah terpencil, melestarikan kehidupan liar dan ekosistem, dan meneliti perubahan iklim. Tutorial yang mudah dan dipandu sendiri ini memungkinkan siswa untuk merasakan pengembangan konseptual AI dalam serangkaian langkah, termasuk pengumpulan data, pembuatan set data, penyebaran AI dan menganalisis hasil.	#
+
+library.category.label.computerScience.blockBased=PENULISAN KODE BERBASIS BLOK	#
+library.category.title.computerScience.blockBased=Penulisan Kode Berbasis Blok	#
+
+library.category.label.computerScience.python=PYTHON	#
+library.category.title.computerScience.python=Python	#
+
+library.category.label.computerScience.python.python101=PYTHON 101	#
+library.category.title.computerScience.python.python101=Python 101	#
+library.category.description.computerScience.python101=Mulai menulis kode Python di Minecraft! Pelajari dasar-dasar Python, termasuk sintaks, tipe data, variabel, kondisional, pengulangan 'for', pengulangan kondisional, daftar, dan fungsi.	#
+
+library.category.label.computerScience.python.python_islands=KEPULAUAN PYTHON	#
+library.category.title.computerScience.python.python_islands=Kepulauan Python	#
+library.category.description.computerScience.python.python_islands=Selamat datang di Kerajaan Kepulauan Terapung! Kerajaan mistis ini mengapung tinggi di atas dunia di bawah ini. Dalam kumpulan pelajaran ini, siswa akan mempelajari dasar-dasar Python melalui serangkaian tugas bertema di setiap dunia. Selesaikan tugas-tugas ini untuk membantu kerajaan berkembang dan bertahan!	#
+
+library.category.label.computerScience.languageAgnostic=BAHASA-AGNOSTIK	#
+library.category.title.computerScience.languageAgnostic=Bahasa-Agnostik	#
+library.category.description.computerScience.languageAgnostic=Jika kamu ingin fokus pada konsep penulisan kode tertentu, inilah tempat untuk memulai! Pelajari cara menggunakan pengulangan, pengurutan, kondisional, variabel, dan fungsi. Dalam pelajaran ini, kamu bisa memilih untuk menulis kode dengan Blok, Python, atau JavaScript.	#
+
+library.category.label.computerScience.featuredLessons=PELAJARAN UNGGULAN	#
+library.category.title.computerScience.featuredLessons=Pelajaran Unggulan	#
+library.category.description.computerScience.featuredLessons=Berikut adalah beberapa pelajaran menulis kode favorit kami!	#
+
+library.category.label.math=MATEMATIKA	#
+library.category.title.math=Matematika	#
+
+library.category.label.math.fractions=BILANGAN PECAHAN	#
+library.category.title.math.fractions=Bilangan Pecahan	#
+library.category.description.math.fractions=Cobalah sumber daya pelajaran berikut untuk membantu mengajarkan bilangan pecahan kepada siswa.	#
+
+library.category.label.art=SENI & DESAIN	#
+library.category.title.art=Seni & Desain	#
+
+library.category.label.commonCore=COMMON CORE, KELAS %1	#
+library.category.title.commonCore=Common Core, Kelas %1	#
+library.category.description.commonCoreMath=Aktivitas yang mendorong partisipasi aktif ini dibuat untuk mendukung instruksi matematika dan diselaraskan dengan setiap standar Matematika Common Core.	#
+
+library.notification.label.resourceUri=Dunia ini dibagikan dengan tautan ke sumber daya tambahan. Cari tombol "%1" di layar Jeda setelah membuat dunia.	#
+
+library.search.title=Pencarian di Pustaka	#
+library.search.placeholder=Cari Pustaka 	### This string can only be 15 characters. If the string is too long, just "Search..." is OK.
+library.search.singleResult=1 hasil pencarian untuk "%s" di seluruh Pustaka	#
+library.search.multipleResults=%1 hasil pencarian untuk "%s" di seluruh Pustaka	#
+library.search.sortMethod.lexicographic.ascending=Diurutkan A ke Z	#
+library.search.sortMethod.relevance=Diurutkan menurut Relevansi	#
+
+resourceUri.launch.success=Membuka Tautan Sumber Daya.	#
+resourceUri.launch.failure=Tidak bisa membuka Tautan Sumber Daya. Ini tidak terlihat seperti URL yang didukung.	#
+
+resourceUri.tooltip.infotext=Tautan yang bisa diedit ini bisa digunakan untuk menghubungkan dunia Minecraft ke sumber daya online.	#
+resourceUri.tooltip.infotext.disabled=Tombol ini dapat diaktifkan dengan menambahkan URL ke bidang Tautan Sumber Daya di Pengaturan > Kelas.	#
+resourceUri.tooltip.label=TAUTAN SUMBER DAYA	#
+
+signin.acceptTerms=Terima Ketentuan	#
+signin.welcome.header.line1=Selamat datang di	#
+signin.welcome.header.line2=Minecraft Education	#
+signin.welcome.body=Masuk dengan akun sekolah atau organisasi untuk melanjutkan.	#
+signin.welcome.footer=Jika tidak punya akun, cobalah pelajaran demo.	#
+signin.demo.header=COBA PELAJARAN DEMO	#
+signin.demo.body=Mulai perjalananmu di Minecraft Education dengan pelajaran demo gratis, tersedia untuk semua murid.	#
+signin.progress.title=Mengunduh Sumber Daya	#
+
+toast.genericLinkOpened=Membuka tautan di browser web.	#
+
+structure_block.export.default_name=Blok Struktur Saya	#
+
+joincode.invalid.title=Kode Bergabung Salah 	#
+joincode.invalid.body=Kamu telah memasukkan %1 kode bergabung yang salah. Tanyakan kepada host untuk memastikan kode yang kamu miliki benar atau coba bergabung menggunakan Alamat IP. 	#
+joincode.invalid.button.tryagain=Coba Lagi	#
+joincode.invalid.button.enterip=Masukkan Alamat IP	#
+joincode.invalid.abuse.body=Kamu telah memasukkan %1 kode bergabung yang salah. Coba bergabung ke dunia menggunakan Alamat IP	#
+
+joincode.item.sharepopup.title.simple=Bagikan Tautan	#
+joincode.popup.body=Bagikan tautan untuk mengundang pemain lain bergabung dengan duniamu. Catatan: tautan ini hanya akan berfungsi saat kamu menjadi host.	#
+joincode.share.body=%1 mengundangmu bergabung dengan dunianya di Minecraft Education. Ikuti tautan ini untuk mulai membangun bersama! (%2, dihosting oleh %1)	#
+joincode.share.subject=Undangan multipemain untuk Minecraft Education	#
+
+manage.delete.notification=%1 telah dihapus.	#
+manage.item.sharepopup.title.simple=Berbagi Salinan	#
+manage.sharepopup.link.body.top=Salinan dunia kamu siap dibagikan!	#
+manage.sharepopup.link.body.bottom=Ketika kamu berbagi tautan ke dunia ini, siapa pun di sekolah atau organisasimu yang memiliki tautan bisa mengunduh salinan dunia mereka sendiri. Pemain lain tidak bisa mengubah atau mengedit salinan dunia Anda. 	#
+manage.sharepopup.copy.body.top=Ayo Berbagi!	#
+manage.sharepopup.copy.body.bottom=Untuk berbagi dunia ini, kami akan meletakkan salinannya di cloud OneDrive kamu. Setelah salinan berada di cloud, kami akan membantumu membagikan tautan dengan orang yang kamu pilih. 	#
+manage.sharepopup.copy.hyperlink=Selengkapnya	#
+manage.sharepopup.copy.cancel=Batal	#
+manage.sharepopup.copy.continue=Lanjutkan	#
+manage.sharepopup.link.manage=Kelola Akses	#
+manage.sharepopup.link.done=Selesai	#
+
+pause.externalLink=BUKA TAUTAN	#
+
+share.classroom.tts=Bagikan tautan lewat Google Classroom	#
+share.mail.tts=Bagikan tautan lewat email	#
+share.teams.tts=Bagikan tautan lewat Microsoft Teams	#
+share.clipboard.tts=Salin tautan ke clipboard	#
+share.deviceShare.tts=Bagikan menggunakan menu berbagi di perangkatmu	#
+
+## TAG LOCALIZATION SECTION ##
+tag.ages_0_3=0-3	#	#
+tag.ages_4_5=4-5	#	#
+tag.ages_6_8=6-8	#	#
+tag.ages_9_12=9-12	#	#
+tag.ages_13_16=13-16	#	#
+tag.ages_16_18=16-18	#	#
+tag.ages_18_plus=18+	#	#
+tag.addition=Penambahan	#	#
+tag.advanced=Tingkat Lanjut	#	#
+tag.adventure=Petualangan	#	#
+tag.all_ages=Semua usia	#	#
+tag.animals=Hewan	#	#
+tag.aquatic=Akuatik	#	#
+tag.architecture=Arsitektur	#	#
+tag.art_and_design=Seni & Desain	#	#
+tag.beginner=Pemula	#	#
+tag.biodiversity=Keanekaragaman Hayati	#	#
+tag.biology=Biologi	#	#
+tag.biome=Bioma	#	#
+tag.biomes_and_worlds=Bioma & Dunia	#	#
+tag.bridges=Jembatan	#referring to the structure	#
+tag.build_challenge=Tantangan Membangun	#	#
+tag.character=Karakter	#	#
+tag.chemistry=Kimia	#	#
+tag.citizenship=Kewarganegaraan	#	#
+tag.city=Kota	#	#
+tag.climate=Iklim	#	#
+tag.code_to_learn_stem=STEM	#abbreviation for Science Technology Engineering and Math	#
+tag.coding_course_1=Agensi	#Leave this in English ... this is a pun based on the name "Agent" for our coding robot	#
+tag.coding_course_2=Menulis Kode dengan Minecraft	#	#
+tag.coding_in_minecraft=Menulis Kode di Minecraft	#	#
+tag.collaboration=Kolaborasi	#	#
+tag.color=Warna	#	#
+tag.common_core_math_grade_3=Matematika Common Core Kelas 3	#	#
+tag.common_core_math_grade_4=Matematika Common Core Kelas 4	#	#
+tag.common_core_math_grade_5=Matematika Common Core Kelas 5	#	#
+tag.communication=Komunikasi	#	#
+tag.computer_science=Ilmu Komputer	#	#
+tag.computing_in_minecraft=Komputasi di Minecraft	#	#
+tag.creative=Kreatif	#	#
+tag.creative_writing=Menulis Kreatif	#	#
+tag.creativity=Kreativitas	#	#
+tag.critical_thinking=Berpikir Kritis	#	#
+tag.division=Pembagian	#	#
+tag.earth_day=Hari Bumi	#	#
+tag.ecology=Ekologi	#	#
+tag.economy=Ekonomi	#	#
+tag.energy=Energi	#	#
+tag.environment=Lingkungan	#	#
+tag.featured=Unggulan	#	#
+tag.fractions=Bilangan Pecahan	#	#
+tag.game_design=Desain Permainan	#	#
+tag.geography=Geografi	#	#
+tag.geology=Geologi	#	#
+tag.history_and_culture=Sejarah & Budaya	#	#
+tag.hour_of_code=Jam Kode	#	#
+tag.how_to_play=Cara Main	#	#
+tag.intermediate=Menengah	#	#
+tag.kensukes_kingdom=Kerajaan Kensuke	#	#
+tag.language_arts=Seni Bahasa	#	#
+tag.leadership=Kepemimpinan	#	#
+tag.lesson=Pelajaran	#	#
+tag.literature=Literatur	#	#
+tag.math=Matematika	#	#
+tag.multiplayer=Multipemain	#	#
+tag.multiplication=Perkalian	#	#
+tag.museum=Museum	#	#
+tag.music=Musik	#	#
+tag.mythology=Mitologi	#	#
+tag.ocean=Samudra	#	#
+tag.oregon_trail=Jalur Oregon	#	#
+tag.pattern=Pola	#	#
+tag.personal_narrative=Narasi Pribadi	#	#
+tag.physics=Fisika	#	#
+tag.pixel_art=Seni Piksel	#	#
+tag.pop_culture=Budaya Populer	#	#
+tag.probability=Probabilitas	#	#
+tag.project_based_learning=Pembelajaran Berbasis Proyek	#	#
+tag.robinson_crusoe=Robinson Crusoe	#	#
+tag.science=Sains	#	#
+tag.seasonal=Musiman	#	#
+tag.single_player=Satu Pemain	#	#
+tag.social_emotional_learning=Pembelajaran Sosial Emosional	#	#
+tag.special_education=Pendidikan Luar Biasa	#	#
+tag.spelling=Ejaan	#	#
+tag.story=Kisah	#	#
+tag.subtraction=Pengurangan	#	#
+tag.survival=Bertahan Hidup	#	#
+tag.swiss_family_robinson=Keluarga Swiss Robinson	#	#
+tag.technology=Teknologi	#	#
+tag.treasure_island=Pulau Harta Karun	#	#
+tag.tutorial=Tutorial	#	#
+tag.we_are_the_rangers=We are the Rangers	#	#
+tag.world_languages=Bahasa Dunia	#	#
+tag.wwf=WWF	#	#
+####### ----- new entries below this line ---- ######
+tag.digital_citizenship=Kewarganegaraan Digital	#see for example: https://www.iste.org/learn/digital-citizenship	#
+tag.python=Python	#coding language	#
+tag.javascript=JavaScript	#coding language	#
+tag.blocks=Blok	#	#
+tag.makecode=MakeCode	#This is the name of the coding IDE available at https://minecraft.makecode.com/	#
+tag.azure_notebooks=Azure Notebooks	#See for example: https://notebooks.azure.com/	#
+tag.loops=Pengulangan	#coding concept in which a block of code is repeated a designated number of times	#
+tag.conditionals=Kondisional	#coding concept of an 'if' or 'if/then' expression	#
+tag.variables=Variabel	#coding concept of using a name to hold one or more values (e.g. the results of a calculation or query)	#
+tag.functions=Fungsi	#coding concept referring to self-contained modules of code that accomplish a certain task	#
+tag.operators=Operator	#coding concepts like AND and OR and > which behave like functions	#
+tag.problem_solving=Pemecahan Masalah	#	#
+tag.artificial_intelligence=Kecerdasan Buatan	#	#
+tag.coding=Penulisan Kode	#the process of creating and maintaining code for computer programs	#
+tag.coding_fundamentals_1=Dasar-Dasar Penulisan Kode 1	#	#
+tag.coding_fundamentals_2=Dasar-Dasar Penulisan Kode 2	#	#
+tag.coding_fundamentals_3=Dasar-Dasar Penulisan Kode 3	#	#
+tag.coding_tutorials=Tutorial Penulisan Kode	#	#
+tag.python101=Python 101	#Python coding language	#
+tag.bees=Lebah	#	#
+tag.space=Luar Angkasa	# refers to outer space	#
+tag.esports=e-Sport	#	#
+tag.toybox=Kotak Mainan	#	#
+tag.featured_coding=Penulisan Kode Unggulan	#	#
+tag.equity_and_inclusion=Keadilan dan Inklusi	#	#
+tag.python_islands=Kepulauan Python #	#
+## END TAG LOCALIZATION SECTION ##
+
+worlds.storage.permission.needed=Kami tidak memiliki izin untuk mengubah pengaturan ini.	#
+worlds.storage.permission.settings=Buka Pengaturan Android dan perbarui izin aplikasi Minecraft Education untuk mengizinkan akses penyimpanan.	#
+worlds.storage.android.settings=Buka Pengaturan Android	#
+worlds.storage.permission.dialog.title=Izin Perangkat Diperlukan	#
+worlds.storage.missing=Apa duniamu hilang? Coba ubah lokasi penyimpanan Minecraft:	#

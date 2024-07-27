@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:camera"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ooo",
+      "o.o",
+      "ooo"
+    ],
+    "key": {
+      ".": {
+        "item": "minecraft:orange_terracotta"
+      },
+      "o": {
+        "item": "minecraft:redstone"
+      }
+    },
+	"unlock": [
+      {
+        "item": "minecraft:iron_block"
+      }
+    ],
+    "result": {
+      "item": "minecraft:camera",
+      "data": 0
+    }
+  }
+}
